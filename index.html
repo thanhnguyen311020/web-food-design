@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Web Design</title>
+
+    <!-- font answeome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css"
+        integrity="sha512-ioRJH7yXnyX+7fXTQEKPULWkMn3CqMcapK0NNtCN8q//sW7ZeVFcbMJ9RvX99TwDg6P8rAH2IqUSt2TLab4Xmw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- swiper style -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+    <!-- header section ends -->
+
+    <!-- Search form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- Home section starts -->
+
+    <section class="home" id="home">
+        <div class="swiper mySwiper home-slider">
+            <div class=" swiper-wrapper wraaper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodeles</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem amet vitae modi!</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem amet vitae modi!</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem amet vitae modi!</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+           
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Home section edns -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link-->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
